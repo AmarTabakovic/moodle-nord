@@ -5,4 +5,4 @@ Hacky Nord theme for Moodle lmao
 ![Preview](docs/preview.png)
 
 ## Prerequisites
-- (https://add0n.com/stylus.html)[Stylus]
+- [https://add0n.com/stylus.html](Stylus)
