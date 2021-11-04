@@ -24,7 +24,6 @@ a:hover, a:hover *, button:hover, button:hover * {
 }
 
 /* This is incredibly hacky lmao */
-.course-content ul.ctopics li.section .content .toggle span.the_toggle h3.sectinname, .course-content ul.ctopics li.section .content.sectionhidden h3.sectionname {
-    color: #D8DEE9 !important;
+.course-content ul.ctopics li.section .content .toggle span.the_toggle h3.sectionname, .course-content ul.ctopics li.section .content.sectionhidden h3.sectionname {
+     color: #D8DEE9 !important;
 }
-
