@@ -6,24 +6,30 @@ How to use:
 4. ???
 5. Profit
 */
-
-*, .bg-white, .bg-dark {
+*,
+.bg-white,
+.bg-dark {
     background-color: #2E3440 !important;
     color: #ECEFF4 !important;
-    /*border-color:#2E3440 !important;*/
-    border-color:#3B4252 !important;
+    border-color: #2E3440 !important;
+    /*border-color:#3B4252 !important;*/
 }
 
-a, a *, button {
+a,
+a *,
+button,
+button *,
+.course-content ul.ctopics li.section .content .toggle span.the_toggle h3.sectionname {
     color: #D8DEE9 !important;
     transition: color 0.5s;
 }
 
-a:hover, a:hover *, button:hover, button:hover * {
+a:hover,
+a:hover *,
+button:hover,
+button:hover *,
+.toggle,
+.toggle *,
+.course-content ul.ctopics li.section .content .toggle span.the_toggle h3.sectionname:hover {
     color: #81A1C1 !important;
-}
-
-/* This is incredibly hacky lmao */
-.course-content ul.ctopics li.section .content .toggle span.the_toggle h3.sectionname, .course-content ul.ctopics li.section .content.sectionhidden h3.sectionname {
-     color: #D8DEE9 !important;
 }
