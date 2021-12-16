@@ -34,3 +34,8 @@ button:hover *,
 .course-content ul.ctopics li.section .content .toggle span.the_toggle h3.sectionname:hover {
     color: #81A1C1 !important;
 }
+
+.gradingform_rubric .criterion .levels .level.checked * {
+    background: #434c5e !important;
+    border: #434c5e !important;
+}
